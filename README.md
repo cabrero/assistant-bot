@@ -46,8 +46,9 @@ And the main sections of each course are:
 
 # User Interface
 
-The only interface is a CLI. It includes commands for common and repetitive tasks like creating a new course,
-start an assessment, collecting grading info, retreiving data for a student, ...
+The only interface is a CLI. It includes commands for common and
+repetitive tasks like creating a new course, start an assessment,
+collecting grading info, retreiving data for a student, ...
 
 The basic format is:
 
@@ -55,11 +56,14 @@ The basic format is:
 $ <script> [...args] <verb> <noun> [...args]
 ```
 
-Where usual _verbs_ are `create`, `update`, `cd`, ... and some common _nouns_: `assessment`, `course`, ...
+Where usual _verbs_ are `create`, `update`, `cd`, ... and some common
+_nouns_: `assessment`, `course`, ...
 
-The application favors convention and context over configuration. So instead of specify the subject, course, assignment, ...:
+The application favors convention and context over configuration. So
+instead of specify the subject, course, assignment, ...:
 
-  * When the user runs a simbolic link to the script. The name of the link is the name of the subject.
+  * When the user runs a simbolic link to the script. The name of the
+    link is the name of the subject.
 
     The magic incantation:
 
@@ -117,4 +121,7 @@ The preference order of the arguments is:
 
 # i18n
 
-The user locale decide the language of the IU and **the language of the verbs and nouns**.
+The user's locale decide the language of the IU and **the language of
+the verbs and nouns**.
+
+_TODO_: ¿ Permitimos una mezlca de idiomas en _verbos_ y _nombres_ ?
