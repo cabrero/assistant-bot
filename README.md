@@ -38,7 +38,7 @@ And the main sections of each course are:
 │   └── data
 ├── exams
 │
-└── gradinds
+└── gradings
 ```
 
 
