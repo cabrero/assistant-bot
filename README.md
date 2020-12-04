@@ -8,39 +8,37 @@ The data is organized in subjects, and each subject in courses.
 
 ```
 $TEACHING_HOME
-  |
-  |- <subject>/courses
-  |    |
-  |    |- 2020-2021
-  |    |- 2021-2022
-  |    |- 2022-2023
-  |    ...
-  |
-  |- <subject>/courses
-  |    |
-  |    |- 2020-2021
-  |    |- 2021-2022
-  |    |- 2022-2023
-  |    ...
-  |
-  ...
+│
+├── <subject>
+│   └── courses
+│       ├── 2020-2021
+│       ├── 2021-2022
+│       ├── 2022-2023
+│       ...
+│
+├── <subject>
+│   └── courses
+│       ├── 2020-2021
+│       ├── 2021-2022
+│       ├── 2022-2023
+│       ...
+...
 ```
 
 And the main sections of each course are:
 
 ```
-<subject>/courses/2020-201
-  |
-  |- de
-  |
-  |- di
-  |   |- assessments
-  |   |- assignments
-  |   |- data
-  |
-  |- exams
-  |
-  |- gradings
+<subject>/courses/2020-2021
+│
+├── de
+│
+├── di
+│   ├── assessments
+│   ├── assignments
+│   └── data
+├── exams
+│
+└── gradinds
 ```
 
 
